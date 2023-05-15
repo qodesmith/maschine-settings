@@ -1,0 +1,5443 @@
+<?xml version="1.0"?>
+<ni-controller-midi-map version="1">
+  <midi-map type="MaschineMK3" name="Battery 4" port="internal">
+    <velocitycurve>3</velocitycurve>
+    <handleTransport>0</handleTransport>
+    <wrapmode>0</wrapmode>
+    <controls>
+      <button version="1" id="Arranger">
+        <controller>36</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Auto">
+        <controller>42</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Browser">
+        <controller>38</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Channel">
+        <controller>34</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Chords">
+        <controller>84</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Duplicate">
+        <controller>89</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <wheel version="1" id="Encoder">
+        <controller>8</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </wheel>
+      <button version="1" id="EncoderCap">
+        <disabled />
+        <controller>9</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="EncoderDown">
+        <controller>32</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="EncoderDownIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>32</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="EncoderLeft">
+        <controller>33</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="EncoderLeftIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>33</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="EncoderPush">
+        <controller>7</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="EncoderRight">
+        <controller>31</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="EncoderRightIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>31</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="EncoderUp">
+        <controller>30</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="EncoderUpIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>30</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="Erase">
+        <controller>54</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Events">
+        <controller>87</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <footswitch version="1" id="FSwRing">
+        <controller>65</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </footswitch>
+      <footswitch version="1" id="FSwTip">
+        <controller>64</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">gate</behavior>
+        <reaction>ondown</reaction>
+      </footswitch>
+      <button version="1" id="File">
+        <controller>40</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="FixedVel">
+        <controller>80</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Follow">
+        <controller>56</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="GroupA">
+        <controller>100</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupAIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>100</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="GroupB">
+        <controller>101</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupBIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>101</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="GroupC">
+        <controller>102</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupCIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>102</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="GroupD">
+        <controller>103</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupDIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>103</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="GroupE">
+        <controller>104</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupEIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>104</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="GroupF">
+        <controller>105</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupFIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>105</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="GroupG">
+        <controller>106</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupGIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>106</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="GroupH">
+        <controller>107</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="GroupHIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>107</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="Keyboard">
+        <controller>82</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Left">
+        <controller>110</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Lock">
+        <controller>48</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Macro">
+        <controller>43</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Mixer">
+        <controller>37</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Mod">
+        <controller>50</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Mute">
+        <controller>92</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="NoteRep">
+        <controller>46</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Notes">
+        <controller>52</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="PadMode">
+        <controller>81</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Pattern">
+        <controller>86</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <pedal version="1" id="Pedal">
+        <controller>11</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </pedal>
+      <button version="1" id="Perform">
+        <controller>51</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Pitch">
+        <controller>49</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Play">
+        <controller>57</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Plugin">
+        <controller>35</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Rec">
+        <controller>58</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Restart">
+        <controller>53</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Right">
+        <controller>111</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Sampling">
+        <controller>39</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Scene">
+        <controller>85</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Select">
+        <controller>90</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Setting">
+        <controller>41</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Solo">
+        <controller>91</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Step">
+        <controller>83</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Stop">
+        <controller>59</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Swing">
+        <controller>45</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Tap">
+        <controller>55</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">trigger</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Tempo">
+        <controller>47</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <knob version="1" id="Touchstrip">
+        <controller>1</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+        <range>360</range>
+        <steps>20</steps>
+        <bipolar>off</bipolar>
+        <min>0</min>
+        <max>127</max>
+        <ledPattern>0</ledPattern>
+        <behavior onIfDown="on">none</behavior>
+      </knob>
+      <button version="1" id="TouchstripCap">
+        <disabled />
+        <polyat>2</polyat>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <led version="1" id="TouchstripIDX">
+        <display type="0">
+          <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+        </display>
+        <controller>1</controller>
+        <channel>0</channel>
+        <min>0</min>
+        <max>127</max>
+        <default>0</default>
+      </led>
+      <button version="1" id="Variation">
+        <controller>88</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+      <button version="1" id="Volume">
+        <controller>44</controller>
+        <channel>0</channel>
+        <off>0</off>
+        <on>127</on>
+        <behavior onIfDown="on">toggle</behavior>
+        <reaction>ondown</reaction>
+      </button>
+    </controls>
+    <pages>
+      <current_index>0</current_index>
+      <page name="Knob Page 1" colorColumn1-index="18" colorColumn1B-index="18" colorColumn2-index="18" colorColumn2B-index="18" colorColumn3-index="18" colorColumn3B-index="18" colorColumn4-index="18" colorColumn4B-index="18" colorColumn5-index="18" colorColumn5B-index="18" colorColumn6-index="18" colorColumn6B-index="18" colorColumn7-index="18" colorColumn7B-index="18" colorColumn8-index="18" colorColumn8B-index="18" explicitMCU="0">
+        <button version="1" id="Button1">
+          <controller>22</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button2">
+          <controller>23</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button3">
+          <controller>24</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button4">
+          <controller>25</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button5">
+          <controller>26</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button6">
+          <controller>27</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button7">
+          <controller>28</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button8">
+          <controller>29</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Knob1">
+          <controller>70</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob2">
+          <controller>71</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob3">
+          <controller>72</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob4">
+          <controller>73</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob5">
+          <controller>74</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob6">
+          <controller>75</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob7">
+          <controller>76</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob8">
+          <controller>77</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="KnobCap1">
+          <disabled />
+          <controller>112</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap2">
+          <disabled />
+          <controller>113</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap3">
+          <disabled />
+          <controller>114</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap4">
+          <disabled />
+          <controller>115</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap5">
+          <disabled />
+          <controller>116</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap6">
+          <disabled />
+          <controller>117</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap7">
+          <disabled />
+          <controller>118</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap8">
+          <disabled />
+          <controller>119</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Knob Page 2" colorColumn1-index="18" colorColumn1B-index="18" colorColumn2-index="18" colorColumn2B-index="18" colorColumn3-index="18" colorColumn3B-index="18" colorColumn4-index="18" colorColumn4B-index="18" colorColumn5-index="18" colorColumn5B-index="18" colorColumn6-index="18" colorColumn6B-index="18" colorColumn7-index="18" colorColumn7B-index="18" colorColumn8-index="18" colorColumn8B-index="18" explicitMCU="0">
+        <button version="1" id="Button1">
+          <controller>60</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button2">
+          <controller>61</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button3">
+          <controller>62</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button4">
+          <controller>63</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button5">
+          <controller>66</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button6">
+          <controller>67</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button7">
+          <controller>68</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Button8">
+          <controller>69</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Knob1">
+          <controller>108</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob2">
+          <controller>109</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob3">
+          <controller>110</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob4">
+          <controller>111</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob5">
+          <controller>112</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob6">
+          <controller>113</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob7">
+          <controller>114</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Knob8">
+          <controller>115</controller>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="KnobCap1">
+          <disabled />
+          <controller>112</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap2">
+          <disabled />
+          <controller>113</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap3">
+          <disabled />
+          <controller>114</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap4">
+          <disabled />
+          <controller>115</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap5">
+          <disabled />
+          <controller>116</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap6">
+          <disabled />
+          <controller>117</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap7">
+          <disabled />
+          <controller>118</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="KnobCap8">
+          <disabled />
+          <controller>119</controller>
+          <channel>0</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+    </pages>
+    <groups>
+      <group name="Pad Page A" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>C-2</name>
+          <note>0</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>0</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>C#-2</name>
+          <note>1</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>1</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>D-2</name>
+          <note>2</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>2</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>D#-2</name>
+          <note>3</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>3</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>E-2</name>
+          <note>4</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>4</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>F-2</name>
+          <note>5</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>5</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>F#-2</name>
+          <note>6</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>6</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>G-2</name>
+          <note>7</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>7</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>G#-2</name>
+          <note>8</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>8</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>A-2</name>
+          <note>9</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>9</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>A#-2</name>
+          <note>10</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>10</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>B-2</name>
+          <note>11</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>11</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>C-1</name>
+          <note>12</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>12</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>C#-1</name>
+          <note>13</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>13</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>D-1</name>
+          <note>14</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>14</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>D#-1</name>
+          <note>15</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>15</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+      <group name="Pad Page B" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>E-1</name>
+          <note>16</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>16</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>F-1</name>
+          <note>17</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>17</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>F#-1</name>
+          <note>18</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>18</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>G-1</name>
+          <note>19</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>19</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>G#-1</name>
+          <note>20</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>20</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>A-1</name>
+          <note>21</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>21</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>A#-1</name>
+          <note>22</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>22</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>B-1</name>
+          <note>23</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>23</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>C0</name>
+          <note>24</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>24</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>C#0</name>
+          <note>25</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>25</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>D0</name>
+          <note>26</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>26</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>D#0</name>
+          <note>27</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>27</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>E0</name>
+          <note>28</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>28</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>F0</name>
+          <note>29</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>29</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>F#0</name>
+          <note>30</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>30</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>G0</name>
+          <note>31</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>31</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+      <group name="Pad Page C" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>G#0</name>
+          <note>32</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>32</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>A0</name>
+          <note>33</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>33</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>A#0</name>
+          <note>34</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>34</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>B0</name>
+          <note>35</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>35</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>C1</name>
+          <note>36</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>36</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>C#1</name>
+          <note>37</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>37</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>D1</name>
+          <note>38</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>38</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>D#1</name>
+          <note>39</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>39</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>E1</name>
+          <note>40</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>40</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>F1</name>
+          <note>41</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>41</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>F#1</name>
+          <note>42</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>42</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>G1</name>
+          <note>43</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>43</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>G#1</name>
+          <note>44</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>44</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>A1</name>
+          <note>45</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>45</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>A#1</name>
+          <note>46</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>46</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>B1</name>
+          <note>47</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>47</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+      <group name="Pad Page D" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>C2</name>
+          <note>48</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>48</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>C#2</name>
+          <note>49</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>49</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>D2</name>
+          <note>50</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>50</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>D#2</name>
+          <note>51</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>51</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>E2</name>
+          <note>52</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>52</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>F2</name>
+          <note>53</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>53</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>F#2</name>
+          <note>54</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>54</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>G2</name>
+          <note>55</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>55</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>G#2</name>
+          <note>56</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>56</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>A2</name>
+          <note>57</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>57</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>A#2</name>
+          <note>58</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>58</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>B2</name>
+          <note>59</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>59</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>C3</name>
+          <note>60</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>60</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>C#3</name>
+          <note>61</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>61</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>D3</name>
+          <note>62</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>62</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>D#3</name>
+          <note>63</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>63</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+      <group name="Pad Page E" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>E3</name>
+          <note>64</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>64</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>F3</name>
+          <note>65</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>65</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>F#3</name>
+          <note>66</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>66</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>G3</name>
+          <note>67</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>67</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>G#3</name>
+          <note>68</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>68</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>A3</name>
+          <note>69</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>69</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>A#3</name>
+          <note>70</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>70</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>B3</name>
+          <note>71</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>71</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>C4</name>
+          <note>72</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>72</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>C#4</name>
+          <note>73</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>73</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>D4</name>
+          <note>74</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>74</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>D#4</name>
+          <note>75</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>75</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>E4</name>
+          <note>76</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>76</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>F4</name>
+          <note>77</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>77</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>F#4</name>
+          <note>78</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>78</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>G4</name>
+          <note>79</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>79</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+      <group name="Pad Page F" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>G#4</name>
+          <note>80</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>80</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>A4</name>
+          <note>81</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>81</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>A#4</name>
+          <note>82</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>82</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>B4</name>
+          <note>83</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>83</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>C5</name>
+          <note>84</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>84</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>C#5</name>
+          <note>85</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>85</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>D5</name>
+          <note>86</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>86</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>D#5</name>
+          <note>87</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>87</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>E5</name>
+          <note>88</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>88</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>F5</name>
+          <note>89</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>89</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>F#5</name>
+          <note>90</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>90</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>G5</name>
+          <note>91</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>91</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>G#5</name>
+          <note>92</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>92</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>A5</name>
+          <note>93</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>93</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>A#5</name>
+          <note>94</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>94</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>B5</name>
+          <note>95</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>95</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+      <group name="Pad Page G" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>C6</name>
+          <note>96</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>96</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>C#6</name>
+          <note>97</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>97</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>D6</name>
+          <note>98</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>98</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>D#6</name>
+          <note>99</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>99</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>E6</name>
+          <note>100</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>100</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>F6</name>
+          <note>101</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>101</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>F#6</name>
+          <note>102</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>102</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>G6</name>
+          <note>103</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>103</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>G#6</name>
+          <note>104</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>104</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>A6</name>
+          <note>105</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>105</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>A#6</name>
+          <note>106</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>106</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>B6</name>
+          <note>107</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>107</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>C7</name>
+          <note>108</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>108</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>C#7</name>
+          <note>109</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>109</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>D7</name>
+          <note>110</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>110</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>D#7</name>
+          <note>111</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>111</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+      <group name="Pad Page H" color-index="9">
+        <pad subtype="trigger" version="1" id="Pad1">
+          <name>E7</name>
+          <note>112</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad1IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>112</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure1">
+          <polyat>12</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad2">
+          <name>F7</name>
+          <note>113</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad2IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>113</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure2">
+          <polyat>13</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad3">
+          <name>F#7</name>
+          <note>114</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad3IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>114</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure3">
+          <polyat>14</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad4">
+          <name>G7</name>
+          <note>115</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad4IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>115</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure4">
+          <polyat>15</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad5">
+          <name>G#7</name>
+          <note>116</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad5IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>116</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure5">
+          <polyat>16</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad6">
+          <name>A7</name>
+          <note>117</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad6IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>117</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure6">
+          <polyat>17</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad7">
+          <name>A#7</name>
+          <note>118</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad7IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>118</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure7">
+          <polyat>18</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad8">
+          <name>B7</name>
+          <note>119</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad8IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>119</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure8">
+          <polyat>19</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad9">
+          <name>C8</name>
+          <note>120</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad9IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>120</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure9">
+          <polyat>20</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad10">
+          <name>C#8</name>
+          <note>121</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad10IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>121</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure10">
+          <polyat>21</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad11">
+          <name>D8</name>
+          <note>122</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad11IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>122</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure11">
+          <polyat>22</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad12">
+          <name>D#8</name>
+          <note>123</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad12IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>123</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure12">
+          <polyat>23</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad13">
+          <name>E8</name>
+          <note>124</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad13IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>124</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure13">
+          <polyat>24</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad14">
+          <name>F8</name>
+          <note>125</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad14IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>125</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure14">
+          <polyat>25</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad15">
+          <name>F#8</name>
+          <note>126</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad15IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>126</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure15">
+          <polyat>26</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <pad subtype="trigger" version="1" id="Pad16">
+          <name>G8</name>
+          <note>127</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">gate</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+        <led version="1" id="Pad16IDX">
+          <display type="0">
+            <unit color-type="1" color-mode="0" color-on-index="2" color-off-index="1" />
+          </display>
+          <note>127</note>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+        </led>
+        <pad subtype="pressure" version="1" id="Pressure16">
+          <polyat>27</polyat>
+          <channel>0</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <last>0</last>
+          <lastExt>0</lastExt>
+          <behavior onIfDown="on">toggle</behavior>
+          <reaction>ondown</reaction>
+        </pad>
+      </group>
+    </groups>
+  </midi-map>
+</ni-controller-midi-map>
